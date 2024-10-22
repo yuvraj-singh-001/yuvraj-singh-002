@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style> *{
+        margin: 0px;
+        padding: 0px;
+        border: border-box;
+        font-family: Arial , Helvetica, sans-serif;
+    
+    }
+    body{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* background: linear-gradient(45deg,#0a0a0a,#3a4452);  */
+        background-image: url(WhatsApp\ Image\ 2024-07-31\ at\ 10.05.55_27e7501d.jpg);
+        background-position: center;
+        background-size: 100% 100%;
+    }
+    h1{
+        color: black;
+    }
+    .login-page{
+        height: 450px;
+        width: 400px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 12px rgba(5, 154, 223, 0.61);
+        background: transparent;
+        border: 5px solid rgba(255 255 255 0.9);
+        backdrop-filter: blur(5px);
+        
+    }  
+    h1{
+        color:#ffffff;
+        font-size: 35px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    i{
+        color: #ffffff;
+    }
+    .input1{
+        margin: 35px;
+        height: 20px;
+        width: 200px;
+        background: transparent;
+        border: none;
+        border-bottom: 2px solid #ffffff;
+        outline: none;
+        /* transition: .5s; */
+    }
+    /* input:focus ~ .input1,
+    input:focus ~ :valid{
+        top: -5px;
+    
+    } */
+    .input1::placeholder{
+        color: #fafafa;
+        font-family: 'Gill Sans';
+        font-size: 1.1rem
+    }
+    .inputbox{
+        text-align: center;
+        margin: 10px;
+    }
+    .check-box{
+        color: #ffffff;
+        display: flex;
+        margin-left: 80px;
+        font-size: 1rem;
+    
+    }
+    .check-box input{
+        margin-right: 3px;
+    }
+    a{
+        font-weight: 550;
+        color: aquamarine;    
+        text-decoration: none; 
+    }
+    .submit{
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+    
+    } 
+    button{
+        height: 35px; 
+        width: 250px;
+        background-color: rgb(59, 208, 228);
+        border-radius: 40px;
+        border: none;
+        font-size: 1rem;
+        cursor: pointer;
+        outline: none;
+        font-weight: 600;
+    }
+    button:active{
+        background-color: aquamarine;
+        box-shadow: 2px 2px 15px 2px rgba(83, 221, 255, 0.541)
+    }
+    .register{
+        color: #ffffff;
+        display: flex;
+        justify-content: space-evenly;
+        font-size: 1rem;
+    }
+    .one{
+        width: 100%;
+        background-color: black;
+        color: white;
+        
+    
+        position: fixed;
+        margin-top: 10px;
+    }
+   
+    </style>
+    </head>
+<body>
+
+    
+    <div class="login-page">
+
+
+    <h1>Login</h1>
+
+
+    <div class="inputbox">
+        <input type="text" class="input1" placeholder="Username">
+        <i class="fa-solid fa-user"></i>
+        <br>
+        <input type="password" class="input1"s placeholder="Password">
+        <i class="fa-solid fa-lock"></i>
+    </div>
+
+    <div class="check-box">  
+        <input type="checkbox">Remeber Me?
+        <a href="secret.html">Forget-Password</a>
+    </div>
+
+    <div class="submit">
+        <a href="http://t.me/Iccuvi"><button >Login</button></a>
+    </div>
+
+    <div class="register">
+        <p>Don't Have a Acount? <a href="secret.html">Register</a></p>
+    </div>
+    
+</body>
+</html>
